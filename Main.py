@@ -5,7 +5,7 @@ def face_recog():
     import os
     from datetime import datetime
 
-    path = 'training_images/employees'
+    path = 'training_images/employees'  #path of the folder where all your employees picture are saved along with their name
     images = []
     classNames = []
     myList = os.listdir(path)
